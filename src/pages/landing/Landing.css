@@ -1,0 +1,28 @@
+.landing {
+    width: 100%;
+    height: 100vh;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingNav {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.landingNav a {
+    margin-right: 20px;
+}

@@ -1,0 +1,27 @@
+footer {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+
+    width: calc(100vw - 275px);
+    background-color: rgba(9,10,12,.5);
+    box-shadow: 5px 5px rgb(0 0 0 / 10%);
+    border-radius: 1rem;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h4 {
+    font-size: 13px;
+    font-weight: normal;
+    color: #e7eef8;
+}
+
+footer h1 {
+    font-size: 11px;
+    font-weight: bold;
+    color: #e7eef8;
+}

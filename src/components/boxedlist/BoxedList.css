@@ -1,0 +1,338 @@
+.boxed-list {
+    background-color: #252731;
+    border-radius: 1rem;
+
+    width: 100%;
+    height: fit-content;
+
+    margin: 75px 15px;
+    max-height: calc(100vh - 195px);
+    padding: 20px;
+
+    overflow: scroll;
+}
+
+.boxed-list-header {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 30px;
+}
+
+.boxed-list-header-item {
+    display: flex;
+    align-items: center;
+}
+
+.boxed-list-header h1 {
+    font-size: 16px;
+}
+
+.boxed-list-header h4 {
+    font-size: 10px;
+    margin-left: 10px;
+    color: #e7eef87d;
+}
+
+.boxed-list-content {
+
+}
+
+.boxed-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.boxed-list thead {
+    background-color: #2e2f39;
+}
+
+.boxed-list tr {
+    width: 100%;
+}
+
+.boxed-list tr:nth-of-type(2n) {
+    background-color: #2e2f39;
+}
+
+.boxed-list tbody tr:hover {
+    background-color: #3c3c43;
+}
+
+.boxed-list th, .boxed-list td {
+    padding: 13px;
+    text-align: start;
+}
+
+.boxed-list th:first-of-type {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.boxed-list th:last-of-type {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.boxed-list tr td:first-of-type {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.boxed-list tr td:last-of-type {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button {
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 6.5px 13px;
+    text-align: center;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    user-select: none;
+    vertical-align: middle;
+    display: flex;
+}
+
+button svg {
+    font-size: 20px;
+}
+
+.boxed-list-header-item svg {
+    display: flex;
+    margin: 0 10px 0px 0px;
+    font-size: 30px;
+    fill: #4c68f7;
+}
+
+.button-info {
+    background-color: rgba(77,105,250,.3);
+    border-color: rgba(77,105,250,.1);
+    box-shadow: unset;
+    color: #4d69fa;
+}
+
+.button-info svg {
+    display: flex;
+    margin: 0 10px 0 0;
+    font-size: 20px;
+    fill: #4d69fa;
+}
+
+.button-info:hover, .button-info:focus {
+    background-color: rgba(77,105,250,.8);
+    border-color: rgba(77,105,250,.1);
+    box-shadow: unset,0 0 0 .25rem rgba(77,105,250,.5);
+    color: #fff;
+}
+
+.button-succes {
+    background-color: rgba(70,188,170,.3);
+    border-color: rgba(70,188,170,.1);
+    box-shadow: unset;
+    color: #46bcaa;
+}
+
+.button-succes svg {
+    display: flex;
+    margin: 0 10px 0 0;
+    font-size: 20px;
+    fill: #46bcaa;
+}
+
+.button-succes:hover, .button-succes:focus {
+    background-color: rgba(70,188,170,.8);
+    border-color: rgba(77,105,250,.1);
+    box-shadow: unset,0 0 0 .25rem rgba(70,188,170,.5);
+    color: #fff;
+}
+
+.button-info svg:hover, .button-info svg:focus, .button-succes svg:hover, .button-succes svg:focus {
+    fill: #fff;
+}
+
+.boxed-list .button-info {
+    margin-left: 15px;
+}
+
+.dark-checkbox {
+    background-color: #212529;
+    appearance: none;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    border-color: #343a40;
+    height: 13px;
+    margin-top: 0.25em;
+    vertical-align: top;
+    width: 13px;
+    border-radius: 4px;
+}
+
+.dark-checkbox:checked {
+    background-color: #6c5dd3;
+    border-color: #6c5dd3;
+    background-image: url("../../checkmark.svg");
+}
+
+.boxed-list-footer {
+    width: 100%;
+
+    padding-top: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.boxed-list-footer h2 {
+    font-size: 13px;
+    color: #6c757d;
+    font-weight: normal;
+}
+
+.boxed-list-footer ul {
+    display: flex;
+    height: 20px;
+}
+
+.boxed-list-footer .page-link {
+    background-color: #1f2128;
+    border: 1px solid #2a2c33;
+    color: #e7eef8;;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 13px;
+    position: relative;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.boxed-list-footer .page-item.active .page-link {
+    background-color: #6c5dd3;
+    border-color: #6c5dd3;
+    color: #fff;
+    z-index: 3;
+}
+
+.boxed-list-footer .page-item.disabled .page-link {
+    background-color: #4c4d53;
+    border-color: #35373e;
+    color: #b9bec6;
+    pointer-events: none;
+}
+
+.boxed-list-footer .page-item svg {
+    fill: #e7eef8;
+}
+
+.boxed-list-footer .page-item.disabled svg {
+    fill: #b9bec6;
+}
+
+.boxed-list-footer li:first-of-type span {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.boxed-list-footer li:last-of-type span {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.boxed-list-footer-nav {
+    display: flex;
+}
+
+.boxed-list-footer-nav select {
+    margin-left: 15px;
+    appearance: none;
+    background-image: url('../../select-arrow.svg');
+    background-position: right 1rem center;
+    background-repeat: no-repeat;
+    background-size: 16px 12px;
+    border: 1px solid #f8f9fa;
+    display: block;
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 100%;
+    background-color: #212529;
+    color: #e7eef8;
+    border-color: #343a40;
+}
+
+.col-12 {
+    width: calc(8.33333333% * 12);
+}
+
+.col-11 {
+    width: calc(8.33333333% * 11);
+}
+
+.col-10 {
+    width: calc(8.33333333% * 10);
+}
+
+.col-9 {
+    width: calc(8.33333333% * 9);
+}
+
+.col-8 {
+    width: calc(8.33333333% * 8);
+}
+
+.col-7 {
+    width: calc(8.33333333% * 7);
+}
+
+.col-6 {
+    width: calc(8.33333333% * 6);
+}
+
+.col-5 {
+    width: calc(8.33333333% * 5);
+}
+
+.col-4 {
+    width: calc(8.33333333% * 4);
+}
+
+.col-3 {
+    width: calc(8.33333333% * 3);
+}
+
+.col-2 {
+    width: calc(8.33333333% * 2);
+}
+
+.col-1 {
+    width: calc(8.33333333% * 1);
+}
+
+.buttonNoStyle {
+    height: 20px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    width: 20px;
+}

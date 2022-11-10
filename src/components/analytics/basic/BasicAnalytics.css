@@ -1,0 +1,13 @@
+.basic-analytics {
+    width: 100%;
+    height: fit-content;
+
+    max-height: calc(100vh - 195px);
+
+    background-color: #473f7e;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,67 @@
+.posts {
+    display: flex;
+}
+
+.flairs-form {
+    width: calc(100vw - 275px);
+    margin-top: 75px;
+    max-height: calc(100vh - 230px);
+}
+
+.dark-checkbox {
+    background-color: #212529 !important; 
+    appearance: none !important;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25) !important;
+    border-color: #343a40;
+    height: 13px;
+    margin-top: 0.25em !important;
+    vertical-align: top;
+    width: 13px;
+    border-radius: 4px !important;
+    display: inline-block !important;
+    padding: 0px !important;
+}
+
+.dark-checkbox:checked {
+    background-color: #6c5dd3 !important;
+    border-color: #6c5dd3 !important;
+    background-image: url("../../../checkmark.svg");
+}
+
+.flairs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flair {
+    padding: 0 10px;
+}
+
+.flairs-submit {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+
+.flairs-result {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.copy-button {
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.flair-button {
+    margin-top: 10px;
+}

@@ -1,0 +1,28 @@
+
+[96mRequest: [93mGET [97m/api/getAuth/David [90mat [37mMon Aug 15 2022 23:14:39 GMT+0000, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"_id": "6224e73c9caffd06ab1b3071",[0m
+[97m	"username": "David",[0m
+[97m	"password": "Onlybands",[0m
+[97m	"admin": true,[0m
+[97m	"redditPosts": true,[0m
+[97m	"redditDms": true,[0m
+[97m	"redditUpvotes": true,[0m
+[97m	"__v": 0[0m
+[97m}[0m
+[96mResponse: [31m500 [37m176.724 ms 
+
+[96mRequest: [93mGET [97m/api/getAuth/David [90mat [37mMon Aug 15 2022 23:14:40 GMT+0000, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"_id": "6224e73c9caffd06ab1b3071",[0m
+[97m	"username": "David",[0m
+[97m	"password": "Onlybands",[0m
+[97m	"admin": true,[0m
+[97m	"redditPosts": true,[0m
+[97m	"redditDms": true,[0m
+[97m	"redditUpvotes": true,[0m
+[97m	"__v": 0[0m
+[97m}[0m
+[96mResponse: [31m500 [37m158.695 ms 

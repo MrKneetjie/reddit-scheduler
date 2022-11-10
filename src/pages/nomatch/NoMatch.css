@@ -1,0 +1,26 @@
+.dm {
+    display: flex;
+}
+
+.dm-content {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dm-content span {
+    color: #4d69fa;
+}
+
+.dm-content h1 {
+    font-size: 72px;
+}
+
+.dm-content button {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
